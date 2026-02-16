@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Us - InteliSupport</title>
+<meta content="Contact InteliSupport for professional IT support services. Get in touch for a free consultation, emergency support, or to learn more about our services." name="description"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+<div class="nav-container">
+<div class="nav-logo">
+<a href="index.html"><h2>InteliSupport</h2></a>
+</div>
+<ul class="nav-menu">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="contact.html">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link cta-button" href="contact.html">Get Support</a>
+</li>
+</ul>
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+</div>
+</nav>
+<!-- Page Header -->
+<section class="page-header">
+<div class="container">
+<h1>Contact InteliSupport</h1>
+<p>Get in touch with our IT experts for immediate support or a free consultation</p>
+</div>
+</section>
+<!-- Emergency Support Banner -->
+<section class="emergency-banner">
+<div class="container">
+<div class="emergency-content">
+<div class="emergency-icon">
+<i class="fas fa-exclamation-triangle"></i>
+</div>
+<div class="emergency-text">
+<h3>Need Emergency IT Support?</h3>
+<p>Critical system down? Call our emergency hotline for immediate assistance.</p>
+</div>
+<div class="emergency-action">
+<a class="btn btn-emergency" href="tel:+15551234567">
+<i class="fas fa-phone"></i> Emergency: (555) 123-4567
+                    </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Methods -->
+<section class="contact-methods">
+<div class="container">
+<div class="section-header">
+<h2>Get In Touch</h2>
+<p>Multiple ways to reach our expert support team</p>
+</div>
+<div class="contact-grid">
+<div class="contact-method">
+<div class="method-icon">
+<i class="fas fa-phone"></i>
+</div>
+<h3>Phone Support</h3>
+<div class="method-details">
+<p class="primary-contact">+1 (555) 123-4567</p>
+<p class="contact-hours">24/7 Emergency Support</p>
+<p class="contact-hours">Business Hours: Mon-Fri 8AM-6PM PST</p>
+</div>
+<a class="method-action" href="tel:+15551234567">Call Now</a>
+</div>
+<div class="contact-method">
+<div class="method-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<h3>Email Support</h3>
+<div class="method-details">
+<p class="primary-contact">support@intelisupport.com</p>
+<p class="contact-hours">Response within 1 hour</p>
+<p class="contact-hours">For non-urgent inquiries</p>
+</div>
+<a class="method-action" href="mailto:support@intelisupport.com">Send Email</a>
+</div>
+<div class="contact-method">
+<div class="method-icon">
+<i class="fas fa-comments"></i>
+</div>
+<h3>Live Chat</h3>
+<div class="method-details">
+<p class="primary-contact">Available on website</p>
+<p class="contact-hours">Mon-Fri 8AM-8PM PST</p>
+<p class="contact-hours">Instant responses</p>
+</div>
+<a class="method-action" href="#" onclick="openChat()">Start Chat</a>
+</div>
+<div class="contact-method">
+<div class="method-icon">
+<i class="fas fa-laptop-code"></i>
+</div>
+<h3>Remote Support</h3>
+<div class="method-details">
+<p class="primary-contact">Secure remote access</p>
+<p class="contact-hours">Available 24/7</p>
+<p class="contact-hours">Instant troubleshooting</p>
+</div>
+<a class="method-action" href="#" onclick="requestRemoteSupport()">Request Access</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Form Section -->
+<section class="contact-form-section">
+<div class="container">
+<div class="contact-layout">
+<div class="contact-info-detailed">
+<h2>Let's Discuss Your IT Needs</h2>
+<p>Fill out the form and our IT experts will get back to you within 24 hours with a customized solution for your business.</p>
+<div class="contact-details-list">
+<div class="contact-detail-item">
+<div class="detail-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div class="detail-content">
+<h4>Office Location</h4>
+<p>123 Tech Boulevard<br/>Suite 456<br/>San Francisco, CA 94105</p>
+<a class="detail-link" href="https://maps.google.com" target="_blank">Get Directions</a>
+</div>
+</div>
+<div class="contact-detail-item">
+<div class="detail-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div class="detail-content">
+<h4>Business Hours</h4>
+<p>Monday - Friday: 8:00 AM - 6:00 PM<br/>
+                                Saturday: 9:00 AM - 2:00 PM<br/>
+                                Sunday: Emergency support only</p>
+</div>
+</div>
+<div class="contact-detail-item">
+<div class="detail-icon">
+<i class="fas fa-shield-alt"></i>
+</div>
+<div class="detail-content">
+<h4>Emergency Support</h4>
+<p>24/7 emergency support available for critical system failures and security incidents.</p>
+<a class="detail-link emergency-link" href="tel:+15551234567">Emergency Hotline</a>
+</div>
+</div>
+</div>
+<div class="response-guarantee">
+<div class="guarantee-icon">
+<i class="fas fa-stopwatch"></i>
+</div>
+<div class="guarantee-content">
+<h4>Response Time Guarantee</h4>
+<ul>
+<li>Critical issues: 15 minutes</li>
+<li>High priority: 1 hour</li>
+<li>Standard requests: 4 hours</li>
+<li>General inquiries: 24 hours</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="contact-form-container">
+<form class="contact-form-detailed" id="contactForm">
+<div class="form-header">
+<h3>Request a Free Consultation</h3>
+<p>Tell us about your IT challenges and we'll provide a customized solution</p>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="firstName">First Name *</label>
+<input id="firstName" name="firstName" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="lastName">Last Name *</label>
+<input id="lastName" name="lastName" required="" type="text"/>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="email">Email Address *</label>
+<input id="email" name="email" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="phone">Phone Number</label>
+<input id="phone" name="phone" type="tel"/>
+</div>
+</div>
+<div class="form-group">
+<label for="company">Company Name</label>
+<input id="company" name="company" type="text"/>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="employees">Number of Employees</label>
+<select id="employees" name="employees">
+<option value="">Select range</option>
+<option value="1-10">1-10 employees</option>
+<option value="11-50">11-50 employees</option>
+<option value="51-100">51-100 employees</option>
+<option value="101-500">101-500 employees</option>
+<option value="500+">500+ employees</option>
+</select>
+</div>
+<div class="form-group">
+<label for="urgency">Request Urgency</label>
+<select id="urgency" name="urgency">
+<option value="low">Low - General inquiry</option>
+<option value="medium">Medium - Planning ahead</option>
+<option value="high">High - Need solution soon</option>
+<option value="critical">Critical - Immediate assistance</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label for="services">Services Interested In</label>
+<div class="checkbox-group">
+<label class="checkbox-item">
+<input name="services[]" type="checkbox" value="helpdesk"/>
+<span class="checkmark"></span>
+                                    24/7 Help Desk Support
+                                </label>
+<label class="checkbox-item">
+<input name="services[]" type="checkbox" value="cybersecurity"/>
+<span class="checkmark"></span>
+                                    Cybersecurity Solutions
+                                </label>
+<label class="checkbox-item">
+<input name="services[]" type="checkbox" value="cloud"/>
+<span class="checkmark"></span>
+                                    Cloud Solutions
+                                </label>
+<label class="checkbox-item">
+<input name="services[]" type="checkbox" value="network"/>
+<span class="checkmark"></span>
+                                    Network Management
+                                </label>
+<label class="checkbox-item">
+<input name="services[]" type="checkbox" value="remote"/>
+<span class="checkmark"></span>
+                                    Remote Support
+                                </label>
+<label class="checkbox-item">
+<input name="services[]" type="checkbox" value="server"/>
+<span class="checkmark"></span>
+                                    Server Management
+                                </label>
+</div>
+</div>
+<div class="form-group">
+<label for="message">Describe Your IT Needs *</label>
+<textarea id="message" name="message" placeholder="Please describe your current IT challenges, goals, or specific requirements..." required="" rows="5"></textarea>
+</div>
+<div class="form-group">
+<label class="checkbox-item consent">
+<input name="consent" required="" type="checkbox"/>
+<span class="checkmark"></span>
+                                I agree to receive communications from InteliSupport regarding my inquiry and consent to the processing of my personal data in accordance with the Privacy Policy.
+                            </label>
+</div>
+<div class="form-actions">
+<button class="btn btn-primary btn-large" type="submit">
+<i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+<p class="form-note">We'll respond within 24 hours with a customized solution</p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Areas -->
+<section class="service-areas">
+<div class="container">
+<div class="section-header">
+<h2>Service Areas</h2>
+<p>We provide IT support services to businesses across multiple locations</p>
+</div>
+<div class="areas-grid">
+<div class="area-item">
+<h4>San Francisco Bay Area</h4>
+<p>On-site and remote support for businesses in San Francisco, Oakland, San Jose, and surrounding areas.</p>
+</div>
+<div class="area-item">
+<h4>California Statewide</h4>
+<p>Remote support and managed services available throughout California with regional partnerships.</p>
+</div>
+<div class="area-item">
+<h4>National Remote Support</h4>
+<p>24/7 remote IT support services available nationwide for businesses of all sizes.</p>
+</div>
+<div class="area-item">
+<h4>International Clients</h4>
+<p>Cloud and remote support services for international businesses with US operations.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="contact-faq">
+<div class="container">
+<div class="section-header">
+<h2>Frequently Asked Questions</h2>
+<p>Quick answers to common questions about our services and support</p>
+</div>
+<div class="faq-grid">
+<div class="faq-item">
+<h4>How quickly can you respond to emergencies?</h4>
+<p>We guarantee a response within 15 minutes for critical system failures and security incidents. Our 24/7 emergency hotline ensures immediate assistance when you need it most.</p>
+</div>
+<div class="faq-item">
+<h4>Do you provide on-site support?</h4>
+<p>Yes, we offer on-site support within the San Francisco Bay Area. For other locations, we provide comprehensive remote support that can resolve most issues without the need for physical presence.</p>
+</div>
+<div class="faq-item">
+<h4>What are your service level agreements?</h4>
+<p>Our SLAs vary by service package but typically include 99.9% uptime guarantee, defined response times, and resolution targets. We provide detailed SLA documentation with all service agreements.</p>
+</div>
+<div class="faq-item">
+<h4>Can you work with our existing IT infrastructure?</h4>
+<p>Absolutely. We work with all major technology platforms and can integrate with your existing systems. Our team will assess your current infrastructure and recommend the best approach.</p>
+</div>
+<div class="faq-item">
+<h4>Do you offer free consultations?</h4>
+<p>Yes, we provide free initial consultations to assess your IT needs and recommend appropriate solutions. This includes a basic security assessment and infrastructure review.</p>
+</div>
+<div class="faq-item">
+<h4>What industries do you serve?</h4>
+<p>We serve businesses across all industries including healthcare, finance, legal, manufacturing, retail, and professional services. Our solutions are customized to meet industry-specific requirements.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-section">
+<h3>InteliSupport</h3>
+<p>Your trusted partner for comprehensive IT support services. We keep your business running smoothly with expert technical solutions and 24/7 support.</p>
+<div class="social-links">
+<a aria-label="Facebook" href="#"><i class="fab fa-facebook"></i></a>
+<a aria-label="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+<a aria-label="LinkedIn" href="#"><i class="fab fa-linkedin"></i></a>
+<a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+<div class="footer-section">
+<h4>Services</h4>
+<ul>
+<li><a href="services.html">24/7 Help Desk</a></li>
+<li><a href="services.html">Cybersecurity</a></li>
+<li><a href="services.html">Cloud Solutions</a></li>
+<li><a href="services.html">Network Management</a></li>
+<li><a href="services.html">Remote Support</a></li>
+<li><a href="services.html">Server Management</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Company</h4>
+<ul>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Contact Info</h4>
+<div class="footer-contact">
+<p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+<p><i class="fas fa-envelope"></i> support@intelisupport.com</p>
+<p><i class="fas fa-map-marker-alt"></i> 123 Tech Boulevard, Suite 456<br/>San Francisco, CA 94105</p>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 InteliSupport. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
